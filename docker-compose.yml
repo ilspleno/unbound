@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  unbound:
+    image: unbound
+    build: .
+    ports:
+      - 53:53
